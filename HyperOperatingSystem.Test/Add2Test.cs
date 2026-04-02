@@ -1,9 +1,7 @@
 // ReSharper disable once CheckNamespace
 namespace Global.HyperOperatingSystem.Test;
 using Global;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using NUnit.Framework;
 using static Global.EasyObject;
 public class Add2Test {
