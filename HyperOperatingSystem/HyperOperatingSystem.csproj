@@ -4,7 +4,7 @@
         <IsPackable>true</IsPackable>
         <LangVersion>latest</LangVersion>
         <TargetFrameworks>net462;net8.0</TargetFrameworks>
-        <Version>2026.0403.0049.34</Version>
+        <Version>2026.0405.0634.54</Version>
         <Nullable>enable</Nullable>
         <ImplicitUsings>disable</ImplicitUsings>
         <Title>HyperOperatingSystem Library</Title>
@@ -32,28 +32,28 @@
         <DebugType>full</DebugType>
     </PropertyGroup>
     <ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'">
-        <Reference Include="Microsoft.CSharp"/>
-        <Reference Include="System"/>
-        <Reference Include="System.Core"/>
-        <Reference Include="System.Data"/>
-        <Reference Include="System.Data.DataSetExtensions"/>
-        <Reference Include="System.IO.Compression"/>
-        <Reference Include="System.Linq"/>
-        <Reference Include="System.Net.Http"/>
-        <Reference Include="System.Web"/>
-        <Reference Include="System.Xml"/>
-        <Reference Include="System.Xml.Linq"/>
+        <Reference Include="Microsoft.CSharp" />
+        <Reference Include="System" />
+        <Reference Include="System.Core" />
+        <Reference Include="System.Data" />
+        <Reference Include="System.Data.DataSetExtensions" />
+        <Reference Include="System.IO.Compression" />
+        <Reference Include="System.Linq" />
+        <Reference Include="System.Net.Http" />
+        <Reference Include="System.Web" />
+        <Reference Include="System.Xml" />
+        <Reference Include="System.Xml.Linq" />
     </ItemGroup>
     <ItemGroup>
-        <None Include=".\README.md" Pack="true" PackagePath=""/>
+        <None Include=".\README.md" Pack="true" PackagePath="" />
     </ItemGroup>
     <ItemGroup>
-        <PackageReference Include="System.Text.Encoding.CodePages" Version="10.0.5"/>
-        <PackageReference Include="CoreObject" Version="2026.401.2240.41"/>
-        <PackageReference Include="Universal" Version="2026.403.34.42"/>
+        <PackageReference Include="System.Text.Encoding.CodePages" Version="10.0.5" />
+        <PackageReference Include="CoreObject" Version="2026.401.2240.41" />
+        <PackageReference Include="Universal" Version="2026.405.624.41" />
     </ItemGroup>
     <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
-        <PackageReference Include="Microsoft.CSharp" Version="4.7.0"/>
-        <PackageReference Include="System.Dynamic.Runtime" Version="4.3.0"/>
+        <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+        <PackageReference Include="System.Dynamic.Runtime" Version="4.3.0" />
     </ItemGroup>
 </Project>
