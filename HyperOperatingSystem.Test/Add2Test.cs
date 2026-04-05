@@ -13,9 +13,9 @@ public class Add2Test {
     [Test]
     public void Test01() {
         AssertIdentical(expected: 333, actual: HyperOperatingSystem.Add2(111, 222));
-        Echo("passed-0");
+        Pass();
         AssertEquivalent(expected: new object[] { 11, 22, 33 }, actual: NewArray(11, 22, 33));
-        Echo("passed-02");
+        Pass();
         var data1 = new Dictionary<string, object?> {
             { "Apple", 1 },
             { "Banana", 2 },
@@ -24,7 +24,7 @@ public class Add2Test {
         var data2 = new { Apple = 1, Banana = 2, List = NewArray(11, 22, 33) };
         Echo(data1, "data2");
         AssertEquivalent(expected: data1, actual: data2);
-        Echo("passed-03");
+        Pass();
     }
 }
 #endif
