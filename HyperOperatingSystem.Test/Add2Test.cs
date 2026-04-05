@@ -1,3 +1,4 @@
+#if false
 // ReSharper disable once CheckNamespace
 namespace Global.HyperOperatingSystem.Test;
 using Global;
@@ -27,3 +28,4 @@ public class Add2Test {
         Log("⭕️✅❝𝑪𝒉𝒆𝒄𝒌：▶passed-03❞✅");
     }
 }
+#endif

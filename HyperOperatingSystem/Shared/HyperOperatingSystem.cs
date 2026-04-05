@@ -537,13 +537,13 @@ public static partial class HyperOperatingSystem {
         return input;
     }
     public static string RemoveSurrogatePair(string str, string replaceSurrogate = "✅") {
-        return Universal.UniversalTransformer.ReplaceSurrogatePair(str, replaceSurrogate: replaceSurrogate);
+        return Universal.GeminiSuperTransformer.ReplaceSurrogatePair(str, replaceSurrogate: replaceSurrogate);
     }
     public static string AdjustFileName(string fileName, string replaceSurrogate = "✅") {
-        return Universal.UniversalTransformer.SafeFileName(fileName, replaceSurrogate: replaceSurrogate);
+        return Universal.GeminiSuperTransformer.SafeFileName(fileName, replaceSurrogate: replaceSurrogate);
     }
     public static string AdjustMetaData(string metadata, string replaceSurrogate = "✅") {
-        return Universal.UniversalTransformer.SafeMetaData(metadata, replaceSurrogate: replaceSurrogate);
+        return Universal.GeminiSuperTransformer.SafeMetaData(metadata, replaceSurrogate: replaceSurrogate);
     }
     public static string GetEnv(string name, string fallback = "") {
         return Environment.GetEnvironmentVariable(name) ?? fallback;
@@ -552,7 +552,7 @@ public static partial class HyperOperatingSystem {
         Environment.SetEnvironmentVariable(name, value);
     }
     public static string SafeBaseName(string baseName) {
-        return Universal.UniversalTransformer.SafeBaseName(baseName, followRecommendation: false);
+        return Universal.GeminiSuperTransformer.SafeBaseName(baseName, followRecommendation: false);
     }
     public static string HomeFile(params string[] relatives) {
         string home = GetEnv("HOME", "");
