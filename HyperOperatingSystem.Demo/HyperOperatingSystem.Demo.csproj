@@ -29,7 +29,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="CoreObject" Version="*" />
+    <PackageReference Include="CoreObject" Version="2026.401.2240.41" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HyperOperatingSystem\HyperOperatingSystem.csproj" />

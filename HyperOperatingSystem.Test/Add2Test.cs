@@ -1,4 +1,4 @@
-#if false
+#if true
 // ReSharper disable once CheckNamespace
 namespace Global.HyperOperatingSystem.Test;
 using Global;
