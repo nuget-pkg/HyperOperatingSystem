@@ -4,7 +4,7 @@
         <IsPackable>true</IsPackable>
         <LangVersion>latest</LangVersion>
         <TargetFrameworks>net462;net8.0</TargetFrameworks>
-        <Version>2026.0405.1650.56</Version>
+        <Version>2026.0406.0240.47</Version>
         <Nullable>enable</Nullable>
         <ImplicitUsings>disable</ImplicitUsings>
         <Title>HyperOperatingSystem Library</Title>
@@ -50,7 +50,7 @@
     <ItemGroup>
         <PackageReference Include="System.Text.Encoding.CodePages" Version="10.0.5" />
         <PackageReference Include="CoreObject" Version="2026.401.2240.41" />
-        <PackageReference Include="Universal" Version="2026.405.1627.25" />
+        <PackageReference Include="Universal" Version="2026.406.39.44" />
     </ItemGroup>
     <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
         <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
